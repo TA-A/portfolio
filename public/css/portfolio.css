@@ -113,3 +113,11 @@ padding-bottom: 30px;
 /* .form-control{
     background-color: transparent !important;
 } */
+
+ul li {
+    list-style: none;
+}
+
+ul li a {
+    color: white;
+}

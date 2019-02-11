@@ -17,23 +17,23 @@
   <!-- navbar -->
 <header>
       <nav class="navbar navbar-expand-md navbar-dark fixed-top">
-        <a class="navbar-brand" href="#">Thècle-Aurélie Augustin</a>
+        <a class="navbar-brand" href="http://localhost/Portfolio/">Thècle-Aurélie Augustin</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarCollapse">
           <ul class="navbar-nav mr-auto">
             <li class="nav-item active">
-              <a class="nav-link" href="#">Projets<span class="sr-only">(current)</span></a>
+              <a class="nav-link" href="http://localhost/Portfolio/">Réalisations<span class="sr-only">(current)</span></a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">A propos</a>
+            <li class="nav-item active">
+              <a class="nav-link" href="http://localhost/Portfolio/apropos.php">A propos</a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link disabled" href="#">CV</a>
+            <li class="nav-item active">
+              <a class="nav-link" href="http://localhost/Portfolio/web/cv.php">CV</a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link disabled" href="#">Contact</a>
+            <li class="nav-item active">
+              <a class="nav-link" href="http://localhost/Portfolio/contact.php">Contact</a>
             </li>
           </ul>
         </div>
@@ -76,13 +76,20 @@
     <div class="album py-5">
         <div class="container">
 
+          
+
+          <div class="col-md-6">
+              <ul>
+                <li>
+              <a href="#">Développement web</a>
+                </li>
+                <li>
+              <a href="#">Graphisme</a>
+                </li>
+              </ul>
+            </div>
+
           <div class="row">
-
-            <div class="col-sm-3">
-              <p>Développement web</p>
-              <p>Graphisme</p>
-            </div>
-
             <div class="col-md-3">
               <div class="card mb-4 box-shadow">
                 <img class="card-img" src="public/images/wallpaper_GOC.jpg" alt="Card image cap">
@@ -100,13 +107,9 @@
             <div class="col-md-3">
               <div class="card mb-4 box-shadow">
                 <img class="card-img" src="public/images/wallpaper_GOC.jpg" alt="Card image cap">
-                <div class="bottom-left">Développement web | 2018</div>
+                <div class="bottom-left">Développement web | 4    018</div>
                 <div class="bottom-left2">Carte de voeux intéractive</div>
               </div>
-            </div>
-
-            <div class="col-sm-3">
-
             </div>
             
             <div class="col-md-3">
@@ -129,9 +132,6 @@
                 <div class="bottom-left">Développement web | 2018</div>
                 <div class="bottom-left2">Carte de voeux intéractive</div>
               </div>
-            </div>
-
-            <div class="col-sm-3">
             </div>
 
             <div class="col-md-3">
@@ -161,7 +161,7 @@
     </main>
 
     <script src="public/js/index.js"></script>
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+963DzO0rT7abK41JStQIAqVgRVzpbzo3smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
 </body>

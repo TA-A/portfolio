@@ -38,42 +38,13 @@
       </nav>
     </header>
 
-    <section class="contact">
-    <div class="col-md-8">
-      <h4 class="mb-3">Contact</h4>
-      <form class="needs-validation" action="traitement.php" method="post">
-        <div class="row">
-          <div class="col-md-6 mb-3">
-            <label for="firstName"></label>
-            <input type="text" class="form-control" id="firstName" placeholder="Prénom" value="" required><span id="missfirstName"></span>
-            <div class="invalid-feedback">
-              Entrez votre prénom.
-            </div>
-            <label for="lastName"></label>
-            <input type="text" class="form-control" id="lastName" placeholder="Nom" value="" required><span id="misslastName"></span>
-            <div class="invalid-feedback">
-              Entrez votre nom.
-            </div>
-            <label for="email"></label>
-          <input type="email" class="form-control" id="email" placeholder="Email" required><span id="missMail"></span>
-          <div class="invalid-feedback">
-            Entrez une adresse mail valide.
-          </div>
-          </div>
-          <div class="col-md-6 mb-3">
-          <label for="message"></label>
-          <textarea type="text" class="form-control" id="message" placeholder="Message" rows="5.5" required></textarea><span id="missMess"></span>
-        </div>
-          </div>
+    <section>
+        <h1 class="texte">Qui-suis je ?</h1>
 
-        <hr class="mb-4">
-        <button class="btn btn-light btn-lg btn-block" id="bouton_envoi" type="submit">Validez</button>
-    </div>
-  </div>
-  </form>
-  </div>
+        <p class="justification">Hello je m’appelle Thècle-Aurélie, je suis curieuse et dynamique, j’aime apprendre de nouvelles choses. Je porte un grand intêret pour tout ce qui est en rapport avec le numérique. Le développement web est pour moi un premier pas vers cette sensibilité. J’ai débuté en faisant des études en design graphique. J’ai découvert à travers cette formation toutes les possiblités qui peuvent en découler et d’autres disciplines qui s’en rapprochent de près ou de loin. Le code ainsi que l’interractivité sont des point qui m’interpellent.</p>
     </section>
+    
 
-  <script type="text/javascript" src="public/js/traitement.js"></script>
+
 </body>
 </html>
