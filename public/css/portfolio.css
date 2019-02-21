@@ -23,6 +23,10 @@ font-family: 'Kaushan Script', cursive;
     margin-left: 70%;
 }
 
+.carousel{
+    margin-top:3%;
+}
+
 .carousel-indicators li{
     width:15px !important;
     height:15px !important;
@@ -228,3 +232,81 @@ rect{
     justify-content: center;
     font-weight: 600;
 }
+
+
+
+
+@media only screen and (max-width: 1420px) {
+    /* smartphone */
+
+        .projet, .github {
+            width: 15%;
+        }
+
+    }
+
+    @media only screen and (max-width: 1000px) {
+        /* smartphone */
+            .justification, .image{
+                width: 80%;
+            }
+    
+            .projet, .github {
+                width: 30%;
+            }
+    
+        }
+
+/* @media only screen and (min-width: 768px) { */
+    /* tablettes et ordinateurs */
+    /* } */
+    @media only screen and (max-width: 767px) {
+    /* smartphone */
+        .justification, .image{
+            width: 70%;
+        }
+
+        .projet, .github {
+            width: 20%;
+        }
+
+    }
+    /* @media only screen and (max-width: 767px) and (orientation: portrait) {
+    /* smartphone en mode portait */
+    /*} */
+
+    @media only screen and (max-width: 654px) {
+        /* smartphone */
+    
+            .projet, .github {
+                width: 30%;
+            }
+    
+        }
+
+    @media only screen and (max-width: 500px) {
+        /* smartphone */
+    
+            .projet, .github {
+                width: 40%;
+            }
+    
+        }
+
+    @media only screen and (max-width: 350px) {
+        /* smartphone */
+    
+        .box {
+            display: flex;
+            align-items: none;
+            justify-content: center;
+          }
+        
+        .projet, .github{
+            /* margin-left: 25%; */
+            margin-top: 3%;
+            width: 100%;
+            text-align: center;
+        }
+    
+        }
