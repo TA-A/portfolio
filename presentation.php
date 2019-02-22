@@ -13,30 +13,7 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 </head>
 <body>
-<header>
-      <nav class="navbar navbar-expand-md navbar-dark fixed-top">
-        <a class="navbar-brand" href="#">Thècle-Aurélie Augustin</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarCollapse">
-          <ul class="navbar-nav mr-auto">
-            <li class="nav-item active">
-              <a class="nav-link" href="#">Projets<span class="sr-only">(current)</span></a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">A propos</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link disabled" href="#">CV</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link disabled" href="#">Contact</a>
-            </li>
-          </ul>
-        </div>
-      </nav>
-    </header>
+<?php include('header.php') ?>
 
     <section>
         <h1 class="texte">Qui-suis je ?</h1>

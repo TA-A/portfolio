@@ -19,12 +19,12 @@ font-family: 'Kaushan Script', cursive;
     color: white !important;
 }
 
-.mr-auto{
-    margin-left: 70%;
+.menu {
+    margin-right: 25px;
 }
 
 .carousel{
-    margin-top:3%;
+    margin-top:3.5%;
 }
 
 .carousel-indicators li{
@@ -97,6 +97,9 @@ padding-bottom: 30px;
   width: 100%;
   height: auto;
 }
+img {
+    max-width: 100%;
+}
 
 /* .overlay{
     position: absolute;
@@ -128,12 +131,14 @@ text{
       transition: .5s ease;
   }
 
-  text:hover{
-    opacity: 1;
-}
+
 
 rect:hover{
     opacity: 0.5;
+}
+
+svg:hover text {
+    opacity: 1;
 }
 /* .card-img:hover{ */
     /* opacity: 0.70; */
@@ -239,6 +244,10 @@ rect{
 @media only screen and (max-width: 1420px) {
     /* smartphone */
 
+    .carousel{
+        margin-top:4%;
+    }
+
         .projet, .github {
             width: 15%;
         }
@@ -247,6 +256,11 @@ rect{
 
     @media only screen and (max-width: 1000px) {
         /* smartphone */
+
+        .carousel{
+            margin-top:5.5%;
+        }
+
             .justification, .image{
                 width: 80%;
             }
@@ -262,6 +276,11 @@ rect{
     /* } */
     @media only screen and (max-width: 767px) {
     /* smartphone */
+
+    .carousel{
+        margin-top:7%;
+    }
+
         .justification, .image{
             width: 70%;
         }
@@ -277,6 +296,10 @@ rect{
 
     @media only screen and (max-width: 654px) {
         /* smartphone */
+
+        .carousel{
+            margin-top:8.5%;
+        }
     
             .projet, .github {
                 width: 30%;
@@ -286,6 +309,10 @@ rect{
 
     @media only screen and (max-width: 500px) {
         /* smartphone */
+
+        .carousel{
+            margin-top:11%;
+        }
     
             .projet, .github {
                 width: 40%;
@@ -295,6 +322,10 @@ rect{
 
     @media only screen and (max-width: 350px) {
         /* smartphone */
+
+        .carousel{
+            margin-top:15.5%;
+        }
     
         .box {
             display: flex;
@@ -310,3 +341,12 @@ rect{
         }
     
         }
+
+        @media only screen and (max-width: 320px) {
+            /* smartphone */
+    
+            .carousel{
+                margin-top:17%;
+            }
+        
+            }

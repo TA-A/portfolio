@@ -15,30 +15,7 @@
 </head>
 <body>
   <!-- navbar -->
-  <header>
-    <nav class="navbar navbar-expand-md navbar-dark fixed-top">
-      <a class="navbar-brand" href="https://thecleaureliea.promo-24.codeur.online/Portfolio/">Thècle-Aurélie Augustin</a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarCollapse">
-        <ul class="navbar-nav mr-auto">
-          <li class="nav-item active">
-            <a class="nav-link" href="https://thecleaureliea.promo-24.codeur.online/Portfolio/">A propos</a>
-          </li>
-          <li class="nav-item active">
-            <a class="nav-link" href="https://thecleaureliea.promo-24.codeur.online/Portfolio/realisations.php">Réalisations<span class="sr-only">(current)</span></a>
-          </li>
-          <li class="nav-item active">
-            <a class="nav-link" href="https://thecleaureliea.promo-24.codeur.online/Portfolio/web/cv.php">CV</a>
-          </li>
-          <li class="nav-item active">
-            <a class="nav-link" href="https://thecleaureliea.promo-24.codeur.online/Portfolio/contact.php">Contact</a>
-          </li>
-        </ul>
-      </div>
-    </nav>
-  </header>
+<?php include('header.php') ?>
 
 <!----------------------------------------------------------------------
 ------------------------- Carrousel -------------------------->
@@ -95,38 +72,38 @@
         <div class="row">
           <div class="col-md-4">
             <div class="card mb-4 shadow-sm">
-            <a href="https://thecleaureliea.promo-24.codeur.online/Portfolio/projets/pharma_net.php"><svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" xmlns:xlink= "http://www.w3.org/1999/xlink" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: Thumbnail"><image xlink:href="public/images/pharma_net.png" x="0" y="0" height="100%" width="100%"/><rect x="0" y="0" height="100%" width="100%" fill="black"/><title>Placeholder</title><text x="10%" y="50%" fill="#eceeef" dy=".3em">Pharma net</text></svg></a>
+            <a href="https://thecleaureliea.promo-24.codeur.online/Portfolio/projets/pharma_net.php"><svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" xmlns:xlink= "http://www.w3.org/1999/xlink" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: Thumbnail" style="background-image: url('https://thecleaureliea.promo-24.codeur.online/Portfolio/public/images/pharma_net.png'); background-repeat: no-repeat; background-size: cover; background-position: center;"><rect x="0" y="0" height="100%" width="100%" fill="black"/><title>Placeholder</title><text x="10%" y="50%" fill="#eceeef" dy=".3em">Pharma net</text></svg></a>
             </div>
           </div>
           <div class="col-md-4">
             <div class="card mb-4 shadow-sm">
-            <a href="https://thecleaureliea.promo-24.codeur.online/Portfolio/projets/uploadit.php"><svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" xmlns:xlink= "http://www.w3.org/1999/xlink" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: Thumbnail"><image xlink:href="public/images/uploadit.png" x="0" y="0" height="100%" width="100%"/><rect x="0" y="0" height="100%" width="100%" fill="black"/><title>Placeholder</title><text x="10%" y="50%" fill="#eceeef" dy=".3em">UploadIt</text></svg></a>
+            <a href="https://thecleaureliea.promo-24.codeur.online/Portfolio/projets/uploadit.php"><svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" xmlns:xlink= "http://www.w3.org/1999/xlink" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: Thumbnail" style="background-image: url('https://thecleaureliea.promo-24.codeur.online/Portfolio/public/images/uploadit.png'); background-repeat: no-repeat; background-size: cover; background-position: center;"><rect x="0" y="0" height="100%" width="100%" fill="black"/><title>Placeholder</title><text x="10%" y="50%" fill="#eceeef" dy=".3em">UploadIt</text></svg></a>
             </div>
           </div>
           <div class="col-md-4">
             <div class="card mb-4 shadow-sm">
-            <a href="https://thecleaureliea.promo-24.codeur.online/Portfolio/projets/memegenerator.php"><svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" xmlns:xlink= "http://www.w3.org/1999/xlink" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: Thumbnail"><image xlink:href="public/images/memegenerator.png" x="0" y="0" height="100%" width="100%"/><rect x="0" y="0" height="100%" width="100%" fill="black"/><title>Placeholder</title><text x="10%" y="50%" fill="#eceeef" dy=".3em">Générateur de memes</text></svg></a>
+            <a href="https://thecleaureliea.promo-24.codeur.online/Portfolio/projets/memegenerator.php"><svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" xmlns:xlink= "http://www.w3.org/1999/xlink" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: Thumbnail" style="background-image: url('https://thecleaureliea.promo-24.codeur.online/Portfolio/public/images/memegenerator.png'); background-repeat: no-repeat; background-size: cover; background-position: center;"><rect x="0" y="0" height="100%" width="100%" fill="black"/><title>Placeholder</title><text x="10%" y="50%" fill="#eceeef" dy=".3em">Générateur de memes</text></svg></a>
             </div>
           </div>
           <div class="col-md-4">
             <div class="card mb-4 shadow-sm">
-            <a href="https://thecleaureliea.promo-24.codeur.online/Portfolio/projets/allocine.php"><svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" xmlns:xlink= "http://www.w3.org/1999/xlink" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: Thumbnail"><image xlink:href="public/images/allocine.png" x="0" y="0" height="100%" width="100%"/><rect x="0" y="0" height="100%" width="100%" fill="black"/><title>Placeholder</title><text x="10%" y="50%" fill="#eceeef" dy=".3em">Allocine</text></svg></a>
+            <a href="https://thecleaureliea.promo-24.codeur.online/Portfolio/projets/allocine.php"><svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" xmlns:xlink= "http://www.w3.org/1999/xlink" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: Thumbnail" style="background-image: url('https://thecleaureliea.promo-24.codeur.online/Portfolio/public/images/allocine.png'); background-repeat: no-repeat; background-size: cover; background-position: center;">><rect x="0" y="0" height="100%" width="100%" fill="black"/><title>Placeholder</title><text x="10%" y="50%" fill="#eceeef" dy=".3em">Allocine</text></svg></a>
             </div>
           </div>
           <div class="col-md-4">
             <div class="card mb-4 shadow-sm">
-            <a href="https://thecleaureliea.promo-24.codeur.online/Portfolio/projets/cdv.php"><svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" xmlns:xlink= "http://www.w3.org/1999/xlink" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: Thumbnail"><image xlink:href="public/images/CDV.svg" x="0" y="0" height="100%" width="100%"/><rect x="0" y="0" height="100%" width="100%" fill="black"/><title>Placeholder</title><text x="10%" y="50%" fill="#eceeef" dy=".3em">Carte de vœux de Noël</text></svg></a>
+            <a href="https://thecleaureliea.promo-24.codeur.online/Portfolio/projets/cdv.php"><svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" xmlns:xlink= "http://www.w3.org/1999/xlink" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: Thumbnail" style="background-image: url('https://thecleaureliea.promo-24.codeur.online/Portfolio/public/images/CDV.png'); background-repeat: no-repeat; background-size: cover; background-position: center;">><rect x="0" y="0" height="100%" width="100%" fill="black"/><title>Placeholder</title><text x="10%" y="50%" fill="#eceeef" dy=".3em">Carte de vœux de Noël</text></svg></a>
             </div>
           </div>
 
           <div class="col-md-4">
             <div class="card mb-4 shadow-sm">
-            <a href="https://thecleaureliea.promo-24.codeur.online/Portfolio/projets/blueasy.php"><svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" xmlns:xlink= "http://www.w3.org/1999/xlink" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: Thumbnail"><image xlink:href="public/images/blueasy.png" x="0" y="0" height="100%" width="100%"/><rect x="0" y="0" height="100%" width="100%" fill="black"/><title>Placeholder</title><text x="10%" y="50%" fill="#eceeef" dy=".3em">Blueasy</text></svg></a>
+            <a href="https://thecleaureliea.promo-24.codeur.online/Portfolio/projets/blueasy.php"><svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" xmlns:xlink= "http://www.w3.org/1999/xlink" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: Thumbnail" style="background-image: url('https://thecleaureliea.promo-24.codeur.online/Portfolio/public/images/blueasy.png'); background-repeat: no-repeat; background-size: cover; background-position: center;">><rect x="0" y="0" height="100%" width="100%" fill="black"/><title>Placeholder</title><text x="10%" y="50%" fill="#eceeef" dy=".3em">Blueasy</text></svg></a>
             </div>
           </div>
           <div class="col-md-4">
             <div class="card mb-4 shadow-sm">
-            <a href="https://thecleaureliea.promo-24.codeur.online/Portfolio/projets/langerba.php"><svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" xmlns:xlink= "http://www.w3.org/1999/xlink" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: Thumbnail"><image xlink:href="public/images/langerba.png" x="0" y="0" height="100%" width="100%"/><rect x="0" y="0" height="100%" width="100%" fill="black"/><title>Placeholder</title><text x="10%" y="50%" fill="#eceeef" dy=".3em">Langerba</text></svg></a>
+            <a href="https://thecleaureliea.promo-24.codeur.online/Portfolio/projets/langerba.php"><svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" xmlns:xlink= "http://www.w3.org/1999/xlink" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: Thumbnail" style="background-image: url('https://thecleaureliea.promo-24.codeur.online/Portfolio/public/images/langerba.png'); background-repeat: no-repeat; background-size: cover; background-position: center;">><rect x="0" y="0" height="100%" width="100%" fill="black"/><title>Placeholder</title><text x="10%" y="50%" fill="#eceeef" dy=".3em">Langerba</text></svg></a>
             </div>
           </div>
           <!--<div class="col-md-4">
